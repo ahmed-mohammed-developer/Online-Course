@@ -1,0 +1,64 @@
+:root {
+     --main: #FF9500;
+     --blue-alt: #0d69d5;
+     --orange: #f59e0b;
+     --green: #22c55e;
+     --red: #f44336;
+     --grey: #888;
+   }
+   /* coler */
+   .bg-main {
+      background-color: var(--main);
+   }
+   .c-white {
+     color: white;
+   }
+
+   /* pading */
+
+.pb-10 {
+     padding-block: 10px;
+}
+.pi-0 {
+     padding-inline: 0;
+}
+.pt-20 {
+     padding-top: 20px;
+}
+
+/* display */
+.d-flex {
+     display: flex;
+}
+.space-between {
+     justify-content: space-between;
+     align-items: center;
+}
+.center-flex {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 23px;
+}
+.gap-50 {
+     gap: 50px;
+}
+.gap-26 {
+     gap: 26px;
+}
+
+/* font */
+.fs-14 {
+     font-size: 14px;
+}
+.fw-400 {
+     font-weight: 400;
+}
+.fl-21 {
+     line-height: 21px;
+}
+
+/* border */ 
+.rad-6 {
+     border-radius: 6px;
+}

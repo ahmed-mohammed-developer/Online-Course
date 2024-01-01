@@ -1,6 +1,7 @@
 :root {
      --main: #FF9500;
      --sec: #FFF4E5;
+     --three: #f1f1f3;
 }
    /* coler */
    .bg-main {
@@ -20,6 +21,9 @@
    }
 
    /* pading */
+   .p-24 {
+     padding: 24px;
+   }
    .p-12 {
      padding: 12px;
    }
@@ -45,9 +49,15 @@
      padding-bottom: 50px;
 }
 .pb-30 {
-     padding-bottom: 30px;
+     padding-bottom: 50px;
 }
 /* margin */
+.m-block-50 {
+     margin-block: 50px;
+}
+.mt-30 {
+     margin-top: 30px;
+}
 .mt-100 {
      margin-top: 100px;
 }
@@ -67,6 +77,9 @@
      justify-content: center;
      align-items: center;
      gap: 23px;
+}
+.d-grid {
+     display: grid;
 }
 .gap-50 {
      gap: 50px;
@@ -92,6 +105,9 @@
 /* border */ 
 .rad-6 {
      border-radius: 6px;
+}
+.rad-10 {
+     border-radius: 10px;
 }
 .bor-1 {
      border: 1px solid #F1F1F3;

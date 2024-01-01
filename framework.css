@@ -1,23 +1,36 @@
 :root {
      --main: #FF9500;
-     --blue-alt: #0d69d5;
-     --orange: #f59e0b;
-     --green: #22c55e;
-     --red: #f44336;
-     --grey: #888;
-   }
+     --sec: #FFF4E5;
+}
    /* coler */
    .bg-main {
       background-color: var(--main);
    }
+   .bg-2 {
+     background-color: #F1F1F3;
+   }
+   .bg-sec {
+     background-color: var(--sec);
+   }
    .c-white {
      color: white;
    }
+   .c-black {
+     color: black;
+   }
 
    /* pading */
-
+   .p-12 {
+     padding: 12px;
+   }
+.b-block-12 {
+     padding-block: 12px;
+}
 .pb-10 {
      padding-block: 10px;
+}
+.p-inline-24 {
+     padding-inline: 24px;
 }
 .pi-0 {
      padding-inline: 0;
@@ -25,7 +38,22 @@
 .pt-20 {
      padding-top: 20px;
 }
-
+.pt-10 {
+     padding-top: 10px;
+}
+.pb-50 {
+     padding-bottom: 50px;
+}
+.pb-30 {
+     padding-bottom: 30px;
+}
+/* margin */
+.mt-100 {
+     margin-top: 100px;
+}
+.m-0 {
+     margin: 0;
+}
 /* display */
 .d-flex {
      display: flex;
@@ -46,6 +74,9 @@
 .gap-26 {
      gap: 26px;
 }
+.gap-10 {
+     gap: 10px;
+}
 
 /* font */
 .fs-14 {
@@ -61,4 +92,26 @@
 /* border */ 
 .rad-6 {
      border-radius: 6px;
+}
+.bor-1 {
+     border: 1px solid #F1F1F3;
+}
+
+/* txt */
+.txt-c {
+     text-align: center;
+}
+
+/* position */
+.p-relative {
+     position: relative;
+}
+.p-absolute {
+     position: absolute;
+}
+
+/* box */
+.btn-btton {
+     padding-inline: 20px;
+     padding-block: 14px;
 }

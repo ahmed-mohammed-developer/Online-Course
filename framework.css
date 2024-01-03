@@ -4,6 +4,9 @@
      --three: #f1f1f3;
 }
    /* coler */
+   .bg-white {
+     background-color: white;
+   }
    .bg-main {
       background-color: var(--main);
    }
@@ -21,6 +24,9 @@
    }
 
    /* pading */
+   .p-40 {
+     padding: 40px;
+   }
    .p-24 {
      padding: 24px;
    }
@@ -81,11 +87,17 @@
 .d-grid {
      display: grid;
 }
+.template-columns {
+     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
 .gap-50 {
      gap: 50px;
 }
 .gap-26 {
      gap: 26px;
+}
+.gap-15 {
+     gap: 15px;
 }
 .gap-10 {
      gap: 10px;

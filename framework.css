@@ -57,6 +57,9 @@
 .pi-0 {
      padding-inline: 0;
 }
+.pt-50 {
+     padding-top: 50px;
+}
 .pt-20 {
      padding-top: 20px;
 }
@@ -78,6 +81,9 @@
 /* margin */
 .m-block-50 {
      margin-block: 50px;
+}
+.mt-10 {
+     margin-top: 10px;
 }
 .mt-30 {
      margin-top: 30px;
@@ -149,6 +155,10 @@
 .fl-21 {
      line-height: 21px;
 }
+.f-18 {
+     font-size: 18px;
+     font-weight: 600;
+}
 
 /* border */ 
 .rad-6 {
@@ -162,6 +172,9 @@
 }
 .bpr-bo-1 {
      border-bottom: 1px solid white;
+}
+.btr-bo-1 {
+     border-top: 1px solid white;
 }
 
 /* txt */

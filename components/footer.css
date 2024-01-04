@@ -1,5 +1,13 @@
 @media (width < 640px){
      footer .footer-flex {
           flex-direction: column;
+          align-items: flex-start;
+     }
+}
+@media (width < 466px){
+     footer .footer-flex .footer-right {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 15px;
      }
 }

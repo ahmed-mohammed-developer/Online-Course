@@ -1,3 +1,6 @@
+footer {
+     padding: 60px 80px;
+}
 @media (width < 640px){
      footer .footer-flex {
           flex-direction: column;

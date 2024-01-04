@@ -67,7 +67,7 @@
      padding-bottom: 50px;
 }
 .pb-30 {
-     padding-bottom: 50px;
+     padding-bottom: 30px;
 }
 .pr-10 {
      padding-right: 10px;
@@ -94,6 +94,9 @@
 .m-block-10 {
      margin-block: 10px;
 }
+.mb-30 {
+     margin-bottom: 30px;
+}
 /* display */
 .d-flex {
      display: flex;
@@ -107,6 +110,9 @@
      justify-content: center;
      align-items: center;
      gap: 23px;
+}
+.align-items {
+     align-items: center;
 }
 .d-grid {
      display: grid;
@@ -154,6 +160,9 @@
 .bor-1 {
      border: 1px solid #F1F1F3;
 }
+.bpr-bo-1 {
+     border-bottom: 1px solid white;
+}
 
 /* txt */
 .txt-c {
@@ -175,4 +184,7 @@
 }
 .pointer {
      cursor: pointer;
+}
+.fs-14 {
+     font-size: 14px;
 }
